@@ -111,10 +111,10 @@ def descrpitive_statistics():
             print("\n-----------------------------------------\n")
 
 
-if __name__ == "main":
+if __name__ == "__main__":
     print("Welcome to this data manipulation and statistics library!\n")
     # Example 1
-    # make_graph_matrix(graphMatrixVisualizer, WIDTH_GRAPH_MATRIX, HEIGHT_GRAPH_MATRIX)
+    make_graph_matrix(graphMatrixVisualizer, WIDTH_GRAPH_MATRIX, HEIGHT_GRAPH_MATRIX)
 
     # Example 2
     # make_boxplots(boxplotsVisualizer, WIDTH_BOXPLOTS)
